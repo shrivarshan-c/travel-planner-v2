@@ -1,0 +1,71 @@
+/* From Uiverse.io by vinodjangid07 */
+.buttons{
+    width: 140px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+
+    background-color: #111;
+    border-radius: 30px;
+    color: white;
+    font-weight: 600;
+    border: none;
+    position: relative;
+    cursor: pointer;
+    transition-duration: .2s;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.116);
+    padding-left: 8px;
+    transition-duration: .5s;
+  }
+
+  .svgIcon {
+    height: 25px;
+    transition-duration: 1.5s;
+    background-color: white;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
+
+  .bell path {
+    fill:white;
+  }
+
+  .buttons:hover {
+    background-color: #899AA8;
+    transition-duration: .5s;
+    color:black
+  }
+
+  .buttons:active {
+    transform: scale(0.97);
+    transition-duration: .2s;
+  }
+
+  .buttons:hover .svgIcon {
+    transform: rotate(250deg);
+    transition-duration: 1.5s;
+  }
+
+
+  @media (max-width:1024px){
+.buttons{
+    width: 120px;
+    height: 30px;
+    font-size: 10px;
+}
+
+  }
+
+  @media (max-width:768px){
+    .buttons{
+        width: 100px;
+        height: 30px;
+        font-size: 8px;
+    }
+
+      }
